@@ -34,6 +34,7 @@ nav .container-fluid {
 .jumbotron {
   background-image: url("../img/dancers-photo.png");
   background-size: cover;
+  margin: 50px auto 0 auto;
 }
 
 .jumbotron .container {
@@ -69,13 +70,14 @@ nav .container-fluid {
 /* Blog Preview Styles*/
 .blog-preview {
   height: 40rem;
-  border: 1px solid black;
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
 }
 
 .blog-info-box {
+  display: flex;
+  flex-direction: column;
   height: 20em;
   width: 25em;
   background-color: rgba(120, 73, 225, 0.9);
@@ -84,17 +86,33 @@ nav .container-fluid {
 }
 
 .blog-info-box h3 {
-  font-size: 2.25rem;
+  font-size: 3.2rem;
   font-weight: bold;
   line-height: 1.2;
 }
 
 .blog-info-box span {
-  font-size: 1.125rem;
+  font-size: 1.4rem;
   line-height: 1.4;
+  margin: 1.25rem 0;
 }
 
 .blog-info-box a {
   font-weight: bold;
   color: #ffffff;
+}
+
+#blog-one {
+  background-image: url("../img/graffiti-photo.png");
+  background-size: cover;
+}
+
+#blog-two {
+  background-image: url("../img/fire-photo.png");
+  background-size: cover;
+}
+
+#blog-three {
+  background-image: url("../img/jump-photo.png");
+  background-size: cover;
 }
