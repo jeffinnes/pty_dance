@@ -116,3 +116,34 @@ nav .container-fluid {
   background-image: url("../img/jump-photo.png");
   background-size: cover;
 }
+
+/* Footer Styles */
+footer {
+  background-image: url("../img/party-photo.png");
+  background-size: cover;
+}
+
+footer, footer a {
+  color: #ffffff;
+}
+
+footer .top {
+  height: 3.125em;
+  background-color: rgba(120, 73, 225, 0.3);
+}
+
+footer .social-media {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+footer .sm-icons {
+  width: 9.375em;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer .contact {
+  text-align: right;
+}
