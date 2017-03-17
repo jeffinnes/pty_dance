@@ -117,6 +117,7 @@ nav .container-fluid {
   background-size: cover;
 }
 
+
 /* Footer Styles */
 footer {
   background-image: url("../img/party-photo.png");
@@ -136,14 +137,37 @@ footer .social-media {
   display: flex;
   justify-content: center;
   align-content: center;
+  height: 100%;
 }
 
-footer .sm-icons {
+footer .so-mi-icons {
   width: 9.375em;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 footer .contact {
-  text-align: right;
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+footer .bottom {
+  height: 15em;
+  text-align: center;
+}
+
+footer .bottom p {
+  font-size: .875em;
+  letter-spacing: 0.7px;
+}
+
+footer #contact-info {
+  margin-top: 5em;
+}
+
+@media only screen and (max-width: 780px) {
+
 }
