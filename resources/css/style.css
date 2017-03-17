@@ -8,11 +8,7 @@ body {
   font-size: 16px;
 }
 
-@media only screen and (max-width: 765px) {
-
-}
-
-/*Navbar Styles*/
+/* Bootstrap Navbar Styles*/
 .navbar-default {
   background-color: #000000;
   font-family: 'Open Sans', sans-serif;
@@ -168,6 +164,26 @@ footer #contact-info {
   margin-top: 5em;
 }
 
-@media only screen and (max-width: 780px) {
+/*Responsive*/
+@media only screen and (max-width: 767px) {
+  /* These rules keep the navbar from changing format on small screens */
+  .navbar-right {
+    float: right!important;
+    margin-right: -15px;
+  }
+
+  .navbar-nav>li {
+      float: left;
+  }
+
+  .navbar-header {
+    float: left;
+  }
+  .container-fluid>.navbar-header {
+    margin-right: 0;
+    margin-left: 0;
+  }
+  /* End navbar rules */
+
 
 }
