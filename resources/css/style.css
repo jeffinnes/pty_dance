@@ -21,6 +21,10 @@ h3 {
   color: #ffffff;
 }
 
+.navbar-header .mobile-screen{
+  display: none;
+}
+
 .navbar-brand {
   padding: 0;
 }
@@ -176,7 +180,7 @@ footer .small-screen-view {
   display: none;
 }
 
-/*Responsive*/
+/*Responsive Rules - Tablet sizes*/
 @media only screen and (max-width: 767px) {
   /* These rules keep the navbar from changing format on small screens */
   .navbar-right {
@@ -243,6 +247,32 @@ footer .small-screen-view {
   footer .bottom span{
     font-size: .625em;
     letter-spacing: 0.5px;
+  }
+
+}
+
+/* Phone Sizes */
+
+@media only screen and (max-width: 500px) {
+  .navbar-header .large-screen-view{
+    display: none;
+  }
+
+  .navbar-header .mobile-screen{
+    display: inline;
+  }
+
+  .navbar-default {
+    height: 2.5em;
+  }
+
+  .navbar-nav {
+    font-size: .75em;
+    margin-top: 0;
+  }
+
+  .jumbotron{
+    margin-top: 2.5rem;
   }
 
 }
