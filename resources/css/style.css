@@ -8,6 +8,10 @@ body {
   font-size: 16px;
 }
 
+h3 {
+  margin: 0;
+}
+
 /* Bootstrap Navbar Styles*/
 .navbar-default {
   background-color: #000000;
@@ -30,6 +34,7 @@ nav .container-fluid {
 .jumbotron {
   background-image: url("../img/dancers-photo.png");
   background-size: cover;
+  background-position: center;
   margin: 50px auto 0 auto;
 }
 
@@ -69,6 +74,8 @@ nav .container-fluid {
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
+  background-position: center;
+  background-size: cover;
 }
 
 .blog-info-box {
@@ -79,6 +86,10 @@ nav .container-fluid {
   background-color: rgba(120, 73, 225, 0.9);
   color: #ffffff;
   padding: 5rem 3rem;
+}
+
+#blog-two .blog-info-box{
+  background-color: rgba(173, 74, 226, 0.9);
 }
 
 .blog-info-box h3 {
@@ -100,17 +111,14 @@ nav .container-fluid {
 
 #blog-one {
   background-image: url("../img/graffiti-photo.png");
-  background-size: cover;
 }
 
 #blog-two {
   background-image: url("../img/fire-photo.png");
-  background-size: cover;
 }
 
 #blog-three {
   background-image: url("../img/jump-photo.png");
-  background-size: cover;
 }
 
 
@@ -155,13 +163,17 @@ footer .bottom {
   text-align: center;
 }
 
-footer .bottom p {
+footer .bottom span{
   font-size: .875em;
   letter-spacing: 0.7px;
 }
 
-footer #contact-info {
+footer .contact-info {
   margin-top: 5em;
+}
+
+footer .small-screen-view {
+  display: none;
 }
 
 /*Responsive*/
@@ -179,11 +191,58 @@ footer #contact-info {
   .navbar-header {
     float: left;
   }
+
   .container-fluid>.navbar-header {
     margin-right: 0;
     margin-left: 0;
   }
   /* End navbar rules */
+  /* Blog Rules */
+  .blog-info-box {
+    width: 100%;
+    height: 12.1875em;
+    padding: 1.875rem 3.4375rem auto 1.875rem;
+  }
 
+  .blog-info-box h3 {
+    font-size: 1.875rem;
+    line-height: 1.4;
+  }
+
+  .blog-info-box span {
+    margin: 0.625rem 0;
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+
+  /*Footer Rules */
+  footer .large-screen-view {
+    display: none;
+  }
+
+  footer .small-screen-view {
+    display: flex;
+    width: 5.4375em;
+  }
+
+  footer .top {
+    display: flex;
+    justify-content: center;
+    height: 2.5em;
+  }
+
+  footer .contact-info {
+    margin-top: 1.875em;
+    margin-bottom: 1em
+  }
+
+  footer .bottom {
+    height: 8.75em;
+  }
+
+  footer .bottom span{
+    font-size: .625em;
+    letter-spacing: 0.5px;
+  }
 
 }
