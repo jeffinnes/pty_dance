@@ -131,6 +131,7 @@ nav .container-fluid {
 footer {
   background-image: url("../img/party-photo.png");
   background-size: cover;
+  background-position: center;
 }
 
 footer, footer a {
@@ -251,16 +252,16 @@ footer .small-screen-view {
     height: 8.75em;
   }
 
-  footer .bottom span{
+  footer .bottom span {
     font-size: .625em;
     letter-spacing: 0.5px;
   }
-
 }
 
 /* Mobile Sizes */
 
 @media only screen and (max-width: 500px) {
+
   .navbar-header .large-screen-view{
     display: none;
   }
@@ -276,6 +277,11 @@ footer .small-screen-view {
   .navbar-nav {
     font-size: .75em;
     margin-top: 0;
+  }
+
+  nav .container-fluid {
+    padding-right: .625rem;
+    padding-left: .625rem;
   }
 
   .jumbotron{
