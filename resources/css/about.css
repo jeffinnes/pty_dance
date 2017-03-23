@@ -38,11 +38,47 @@
   color: #666;
 }
 
-.flex-box {
+.style-of-dance {
   display: flex;
-  width: 100%;
+  align-items: center;
+  padding: 4rem 19%;
+  background-color: #f2f2f2;
 }
 
+.style-of-dance img {
+  width: auto;
+  height: 9.375rem;
+  margin-right: 5rem;
+}
+
+.style-of-dance .copy-box {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.style-of-dance h3 {
+  color: #794ae2;
+  font-size: 2.25rem;
+  font-weight: bold;
+  margin-bottom: 1.25rem;
+}
+
+.style-of-dance p {
+  color: #666;
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+.style-of-dance.alternate {
+  flex-direction: row-reverse;
+  background-color: #fff;
+}
+
+ .style-of-dance.alternate img {
+   margin-left: 5rem;
+   margin-right: 0;
+}
 
 /*Responsive Rules - Tablet sizes*/
 @media only screen and (max-width: 767px) {
