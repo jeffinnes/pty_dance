@@ -38,6 +38,7 @@
   color: #666;
 }
 
+/* Dance Style section*/
 .style-of-dance {
   display: flex;
   align-items: center;
@@ -105,6 +106,16 @@
     font-size: 1em;
     line-height: 1.6;
   }
+
+  .style-of-dance, .style-of-dance.alternate {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+   .style-of-dance img, .style-of-dance.alternate img {
+     margin: 0 0 1rem 0;
+     height: 6.25rem;
+   }
 }
 
 
