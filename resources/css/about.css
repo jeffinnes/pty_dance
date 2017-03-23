@@ -81,6 +81,38 @@
    margin-right: 0;
 }
 
+/*Location Style*/
+.location {
+  height: 31.25rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  background-image: url("../img/map.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.location-info-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 80%;
+  width: 45%;
+  background-color: rgba(120, 73, 225, 0.9);
+  color: #fff;
+  padding: 5rem 3rem;
+}
+
+.location-info-box h3 {
+  font-size: 2.25rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem
+}
+
+.location-info-box span {
+  font-size: 1.25rem;
+}
+
 /*Responsive Rules - Tablet sizes*/
 @media only screen and (max-width: 767px) {
   .jumbotron .container {
@@ -115,6 +147,19 @@
    .style-of-dance img, .style-of-dance.alternate img {
      margin: 0 0 1rem 0;
      height: 6.25rem;
+   }
+
+   .location-info-box {
+     height: 40%;
+     width: 80%;
+   }
+
+   .location-info-box h3 {
+     font-size: 1.87rem;
+   }
+
+   .location-info-box span {
+     font-size: 1rem;
    }
 }
 
