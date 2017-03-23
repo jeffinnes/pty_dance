@@ -1,0 +1,79 @@
+.jumbotron {
+  background-color: white;
+  padding: 0;
+  margin: 50px 0 0 0;
+  border-bottom: 10px solid #794ae2;
+}
+
+.jumbotron .container {
+  margin: 0;
+  padding: 0;
+}
+
+.jumbotron .image-box {
+  width: 50%;
+}
+
+.jumbotron img {
+  max-width: 100%;
+  height: auto;
+}
+
+.jumbotron .copy-box {
+  width: 50%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-right:  4rem;
+  background-color: white;
+  opacity: .9;
+}
+
+.jumbotron h1 {
+  color: #794ae2;
+}
+
+.jumbotron p {
+  color: #666;
+}
+
+/* Class Info */
+
+
+/*Responsive Rules - Tablet sizes*/
+@media only screen and (max-width: 767px) {
+  .jumbotron .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .jumbotron .image-box {
+    width: 100%;
+    margin-bottom: -115px;
+  }
+
+  .jumbotron .copy-box {
+    width: 100%;
+    padding-left: 4rem;
+  }
+
+  .jumbotron h1 {
+    font-size: 1.25em;
+  }
+
+  .jumbotron p {
+    font-size: 1em;
+    line-height: 1.6;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .jumbotron {
+    margin-top: 35px;
+  }
+
+  .jumbotron .image-box {
+    margin-bottom: 0;
+  }
+}
