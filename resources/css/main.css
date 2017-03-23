@@ -12,6 +12,10 @@ h3 {
   margin: 0;
 }
 
+#current-page {
+  color: #f5a623;
+}
+
 /* Bootstrap Navbar Styles*/
 .navbar-default {
   background-color: #000000;
@@ -32,6 +36,21 @@ h3 {
 nav .container-fluid {
   padding-right: 3.6875rem;
   padding-left: 3.4375rem;
+}
+
+/* jumbotron Styles */
+.jumbotron h1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 3.125rem;
+  font-weight: bold;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+.jumbotron p {
+  font-size: 1.5rem;
+  line-height: 1.5;
+  font-family: 'Roboto', sans-serif;
 }
 
 /* Footer Styles */
