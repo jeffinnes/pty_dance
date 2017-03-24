@@ -93,6 +93,16 @@
     font-size: 1em;
     line-height: 1.6;
   }
+
+  .class-list span {
+    font-size: 1.125rem;
+  }
+
+  .class-list p {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 2.25rem;
+  }
 }
 
 @media only screen and (max-width: 500px) {
@@ -102,5 +112,23 @@
 
   .jumbotron .image-box {
     margin-bottom: 0;
+  }
+
+
+
+  .class-list h4 {
+    font-size: 1rem;
+    margin-top: .625rem;
+  }
+
+  .class-list span {
+    font-size: .875rem;
+    line-height: 1.7;
+  }
+
+  .class-list p {
+    font-size: .875rem;
+    line-height: 1.7;
+    margin-bottom: 2.5rem;
   }
 }
