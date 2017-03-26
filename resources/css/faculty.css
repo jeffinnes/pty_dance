@@ -38,16 +38,12 @@
   text-align: center;
 }
 
-.stafflist .image-box {
+.stafflist .staff-box {
   width: 16.875rem;
   margin: 0 auto;
 }
 
-.stafflist .staff-box {
-  width: 16.875rem;
-}
-
-.stafflist .image-box img {
+.stafflist .staff-box img {
   width: 100%;
 }
 
