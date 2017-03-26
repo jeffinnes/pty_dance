@@ -45,24 +45,28 @@
 
 .class-list h3 {
   font-size: 1.875rem;
+  font-family: 'Open Sans', sans-serif;
   font-weight: bold;
   color: rgba(174, 75, 227, 0.9);
 }
 
 .class-list h4 {
   font-size: 1.125rem;
+  font-family: 'Open Sans', sans-serif;
   font-weight: bold;
   margin: 1.125rem 0 0 0;
 }
 
 .class-list span {
   font-size: 1rem;
+  font-family: 'Open Sans', sans-serif;
   line-height: 1.5;
   color: #000;
 }
 
 .class-list p {
   font-size: .875rem;
+  font-family: 'Open Sans', sans-serif;
   line-height: 1.7;
   margin-top: 1.125rem;
   margin-bottom: 3.75rem;
@@ -105,7 +109,7 @@
   }
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 540px) {
   .jumbotron {
     margin-top: 35px;
   }

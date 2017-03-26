@@ -21,7 +21,7 @@
   flex-direction: column;
   justify-content: center;
   opacity: .9;
-  padding: 9rem 0;
+  padding: 9rem 4rem 9rem 0;
 }
 
 .jumbotron h1 {
@@ -34,7 +34,7 @@
 
 /* Staff List */
 .stafflist {
-  padding: 5.625rem 7.5rem 11.25rem 7.5rem;
+  padding: 5.625rem 7.5rem 5rem 7.5rem;
   text-align: center;
 }
 
@@ -43,21 +43,34 @@
   margin: 0 auto;
 }
 
+.stafflist .staff-box {
+  width: 16.875rem;
+}
+
 .stafflist .image-box img {
   width: 100%;
 }
 
 .stafflist h3 {
   font-size: 1.875rem;
+  font-family: 'Open Sans', sans-serif;
   font-weight: bold;
+  color: #8A54ff;
+  padding-top: 1.25rem;
+  padding-bottom: .625rem;
 }
 
 .stafflist h4 {
-
+  padding-bottom: .625rem;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.125rem;
+  font-weight: bold;
 }
 
 .stafflist p {
-
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.5;
+  padding-bottom: 6.25rem;
 }
 
 @media only screen and (max-width: 767px) {
@@ -72,7 +85,7 @@
 }
 
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 540px) {
   .jumbotron {
     margin-top: 35px;
   }
