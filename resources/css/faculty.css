@@ -32,7 +32,33 @@
   color: #999;
 }
 
+/* Staff List */
+.stafflist {
+  padding: 5.625rem 7.5rem 11.25rem 7.5rem;
+  text-align: center;
+}
 
+.stafflist .image-box {
+  width: 16.875rem;
+  margin: 0 auto;
+}
+
+.stafflist .image-box img {
+  width: 100%;
+}
+
+.stafflist h3 {
+  font-size: 1.875rem;
+  font-weight: bold;
+}
+
+.stafflist h4 {
+
+}
+
+.stafflist p {
+
+}
 
 @media only screen and (max-width: 767px) {
 .jumbotron h1 {
