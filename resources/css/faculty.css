@@ -38,9 +38,13 @@
   text-align: center;
 }
 
+.stafflist .row div {
+  margin: 0 auto;
+}
+
 .stafflist .staff-box {
   width: 16.875rem;
-  margin: 0 auto;
+  min-height: 550px;
 }
 
 .stafflist .staff-box img {
