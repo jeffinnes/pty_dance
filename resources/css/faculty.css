@@ -92,6 +92,19 @@
 
   .jumbotron .copy-box {
     width: 100%;
-    padding: 18rem 0 0 0;
+    padding: 18rem 3rem 0 3rem;
+  }
+
+  .stafflist h3 {
+    font-size: 1.5rem;
+  }
+
+  .stafflist h4 {
+    font-size: 1rem
+  }
+
+  .stafflist p {
+    font-size: .875rem;
+    line-height: 1.7;
   }
 }
